@@ -1,0 +1,70 @@
+name: medical
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^5.1.0
+  font_awesome_flutter: ^10.5.0
+  rounded_loading_button: ^2.1.0
+  responsive_sizer: ^3.1.1
+  smooth_page_indicator: ^1.1.0
+  page_transition: "^2.0.9"
+  flutter_chat_ui: ^1.6.9
+  animated_bottom_navigation_bar: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - images/logo.png
+    - images/logo-green.png
+    - images/google.png
+    - images/apple.png
+    - images/doctor1.png
+    - images/doctor2.png
+    - images/doctor3.png
+    - images/facebook.png
+    - images/article1.png
+    - images/capsules.png
+    - images/capsules2.png
+    - lib/icons/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
